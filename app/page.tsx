@@ -10,17 +10,9 @@ import React from 'react';
 
 import { Navigation } from 'swiper/modules';
 
-// import Slider from "react-slick";
-// import "slick-carousel/slick/slick.css";
-// import "slick-carousel/slick/slick-theme.css";
+
 export default function Home() {
-  // let image = {
-  //   dots: true,
-  //   infinite: true,
-  //   speed: 500,
-  //   slidesToShow: 1,
-  //   slidesToScroll: 1,
-  // };
+
   return (
     <>
       <div className=" first  max-w-full flex flex-1 bg-bg-bg1 bg-cover bg-norepeat w-full  mx-auto     h-[600px]">
@@ -1423,33 +1415,7 @@ Based across THE GLOBE, making up over 23 different nationalities."
         </div>
       </div>
 
-      {/* <div className="w-full mx-auto bg-white rounded-xl shadow-md overflow-hidden ">
-        <div className="md:flex">
-          <div className="md:shrink-0">
-            <img
-              className="h-48 w-full object-cover md:h-full md:w-64"
-              src="/1.png"
-              alt="Modern building architecture"
-            />
-          </div>
-          <div className="p-8">
-            <div className="uppercase tracking-wide text-sm text-indigo-500 font-semibold">
-              Company retreats
-            </div>
-            <a
-              href="#"
-              className="block mt-1 text-lg leading-tight font-medium text-black hover:underline"
-            >
-              Incredible accommodation for your team
-            </a>
-            <p className="mt-2 text-slate-500">
-              Looking to take your team away on a retreat to enjoy awesome food
-              and take in some sunshine? We have a list of places to do just
-              that.
-            </p>
-          </div>
-        </div>
-      </div> */}
+     
     </>
   );
 }
